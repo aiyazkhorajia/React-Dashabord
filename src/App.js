@@ -14,7 +14,7 @@ export default function BasicExample() {
         <SideNavigation />
         <main className="default-transition">
           <Switch>
-            <Route exact path="/">
+            <Route path="/">
               <Dashboard />
             </Route>{" "}
             <Route path="/home">

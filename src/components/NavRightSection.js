@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../assets/images/profile-photo.jpg";
 
 const NavRightSection = () => {
   return (
@@ -12,7 +13,7 @@ const NavRightSection = () => {
           aria-expanded="false">
           <span className="name">Aiyaz Khorajia</span>
           <span>
-            <img alt="Profile Picture" src="../../profile-photo.jpg" />
+            <img alt="Profile Picture" src={profilePic} />
           </span>
         </button>
       </div>
